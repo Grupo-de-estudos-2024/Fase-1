@@ -3,6 +3,8 @@
 
 // Coisas não mencionada anteriormente:
 
+console.log('euuu fui feito no notepad :c')
+
 // Como encontrar o índice de um elemento:
 console.log('------------ Como encontrar o índice de um elemento -----------')
 let meuArray = ['Bruno', 'Gabi', 'Pet']
