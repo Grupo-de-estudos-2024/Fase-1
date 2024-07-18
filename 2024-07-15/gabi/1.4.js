@@ -35,19 +35,36 @@
 // while(i <= menor){
 //     if(menor % i == 0)
 //     i++}
+// 
+// let divisoresPrimeiro = []
+// let divisoresSegundo = []
+// let i = 0
+// let divisor
+
+// while (i <= primeiro) {
+//   if (primeiro % i == 0) {
+//     divisor = i
+//     console.log(divisor)
+//   }
+//   i++}
+
 
 let primeiro = process.argv[2]
 let segundo = process.argv[3]
+let menor;
 
-let divisoresPrimeiro = []
-let divisoresSegundo = []
+if(primeiro < segundo){
+  menor = primeiro
+} else {
+  menor = segundo
+}
+let mdc = 1;
 let i = 0
-let divisor
 
-while (i <= primeiro) {
-  if (primeiro % i == 0) {
-    divisor = i
-    console.log(divisor)
+while(i <= menor){
+  if(primeiro % i === 0 && segundo % i === 0){
+    mdc = i;
   }
   i++
 }
+console.log("O maior divisor entre " + primeiro + " e "+ segundo + " é", mdc);
