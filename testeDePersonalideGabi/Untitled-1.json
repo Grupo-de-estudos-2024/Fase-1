@@ -1,0 +1,24 @@
+[
+    {
+        "pergunta": "Eu sou...",
+        "resposta": [
+            {
+                "animal": "A",
+                "texto": "idealista, criativo e visionário"
+            },
+            {
+                "animal": "G",
+                "texto": "divertido, espiritual e benéfico"
+            },
+            {
+                "animal": "L",
+                "texto": "confiável, meticuloso e previsível"
+            },
+            {
+                "animal": "T",
+                "texto": "Focado, determinado e persistente"
+            }
+
+        ]
+    }
+]

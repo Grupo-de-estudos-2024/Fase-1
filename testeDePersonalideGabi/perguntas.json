@@ -1,0 +1,527 @@
+[
+    {
+        "pergunta": "Eu sou...",
+        "resposta": [
+            {
+                "animal": "I",
+                "texto": "Idealista, criativo e visionário"
+            },
+            {
+                "animal": "C",
+                "texto": "Divertido, espiritual e benéfico"
+            },
+            {
+                "animal": "O",
+                "texto": "Confiável, meticuloso e previsível"
+            },
+            {
+                "animal": "A",
+                "texto": "Focado, determinado e persistente"
+            }
+        ]
+    },
+    {
+        "pergunta": "Eu gosto de...",
+        "resposta": [
+            {
+                "animal": "A",
+                "texto": "Ser piloto"
+            },
+            {
+                "animal": "C",
+                "texto": "Conversar com os passageiros"
+            },
+            {
+                "animal": "O",
+                "texto": "Planejar a viagem"
+            },
+            {
+                "animal": "I",
+                "texto": "Explorar novas rotas"
+            }
+        ]
+    },
+    {
+        "pergunta": "Se você quiser se dar bem comigo...",
+        "resposta": [
+            {
+                "animal": "I",
+                "texto": "Me dê liberdade"
+            },
+            {
+                "animal": "O",
+                "texto": "Me deixe saber sua expectativa"
+            },
+            {
+                "animal": "A",
+                "texto": "Lidere, siga ou saia do caminho"
+            },
+            {
+                "animal": "C",
+                "texto": "Seja amigável, carinhoso e compreensivo"
+            }
+        ]
+    },
+    {
+        "pergunta": "Para conseguir obter bons resultados é preciso...",
+        "resposta": [
+            {
+                "animal": "I",
+                "texto": "Ter incertezas"
+            },
+            {
+                "animal": "O",
+                "texto": "Controlar o essencial"
+            },
+            {
+                "animal": "C",
+                "texto": "Diversão e celebração"
+            },
+            {
+                "animal": "A",
+                "texto": "Planejar e obter recursos"
+            }
+        ]
+    },
+    {
+        "pergunta": "Eu me divirto quando...",
+        "resposta": [
+            {
+                "animal": "A",
+                "texto": "Estou me exercitando"
+            },
+            {
+                "animal": "I",
+                "texto": "Tenho novidades"
+            },
+            {
+                "animal": "C",
+                "texto": "Estou com os outros"
+            },
+            {
+                "animal": "O",
+                "texto": "Determino as regras"
+            }
+        ]
+    },
+    {
+        "pergunta": "Eu penso que...",
+        "resposta": [
+            {
+                "animal": "C",
+                "texto": "Unidos venceremos, divididos perderemos"
+            },
+            {
+                "animal": "A",
+                "texto": "O ataque é melhor que a defesa"
+            },
+            {
+                "animal": "I",
+                "texto": "É bom ser manso, mas andar com um porrete"
+            },
+            {
+                "animal": "O",
+                "texto": "Um homem prevenido vale por dois"
+            }
+        ]
+    },
+    {
+        "pergunta": "Minha preocupação é...",
+        "resposta": [
+            {
+                "animal": "I",
+                "texto": "Gerar a ideia global"
+            },
+            {
+                "animal": "C",
+                "texto": "Fazer com que as pessoas gostem"
+            },
+            {
+                "animal": "O",
+                "texto": "Fazer com que funcione"
+            },
+            {
+                "animal": "A",
+                "texto": "Fazer com que aconteça"
+            }
+        ]
+    },
+    {
+        "pergunta": "Eu prefiro...",
+        "resposta": [
+            {
+                "animal": "I",
+                "texto": "Perguntas a respostas"
+            },
+            {
+                "animal": "O",
+                "texto": "Ter todos os detalhes"
+            },
+            {
+                "animal": "A",
+                "texto": "Vantagens a meu favor"
+            },
+            {
+                "animal": "C",
+                "texto": "Que todos tenham a chance de ser ouvidos"
+            }
+        ]
+    },
+    {
+        "pergunta": "Eu gosto de...",
+        "resposta": [
+            {
+                "animal": "A",
+                "texto": "Fazer progresso"
+            },
+            {
+                "animal": "C",
+                "texto": "Construir memórias"
+            },
+            {
+                "animal": "O",
+                "texto": "Fazer sentido"
+            },
+            {
+                "animal": "I",
+                "texto": "Tornar as pessoas confortáveis"
+            }
+        ]
+    },
+    {
+        "pergunta": "Eu gosto de chegar...",
+        "resposta": [
+            {
+                "animal": "A",
+                "texto": "Na frente"
+            },
+            {
+                "animal": "C",
+                "texto": "Junto"
+            },
+            {
+                "animal": "O",
+                "texto": "Na hora"
+            },
+            {
+                "animal": "I",
+                "texto": "Em outro lugar"
+            }
+        ]
+    },
+    {
+        "pergunta": "Um ótimo dia para mim é quando...",
+        "resposta": [
+            {
+                "animal": "A",
+                "texto": "Consigo fazer muitas coisas"
+            },
+            {
+                "animal": "C",
+                "texto": "Me divirto com meus amigos"
+            },
+            {
+                "animal": "O",
+                "texto": "Tudo segue conforme planejado"
+            },
+            {
+                "animal": "I",
+                "texto": "Desfruto de coisas novas e estimulantes"
+            }
+        ]
+    },
+    {
+        "pergunta": "Eu vejo a morte como...",
+        "resposta": [
+            {
+                "animal": "I",
+                "texto": "Uma grande aventura misteriosa"
+            },
+            {
+                "animal": "C",
+                "texto": "Oportunidade para rever os falecidos"
+            },
+            {
+                "animal": "O",
+                "texto": "Um modo de receber recompensas"
+            },
+            {
+                "animal": "A",
+                "texto": "Algo que sempre chega muito cedo"
+            }
+        ]
+    },
+    {
+        "pergunta": "Minha filosofia de vida é...",
+        "resposta": [
+            {
+                "animal": "A",
+                "texto": "Há ganhadores e perdedores, e eu acredito ser um ganhador"
+            },
+            {
+                "animal": "C",
+                "texto": "Para eu ganhar, ninguém precisa perder"
+            },
+            {
+                "animal": "O",
+                "texto": "Para ganhar é preciso seguir as regras"
+            },
+            {
+                "animal": "I",
+                "texto": "Para ganhar, é necessário inventar novas regras"
+            }
+        ]
+    },
+    {
+        "pergunta": "Eu sempre gostei de...",
+        "resposta": [
+            {
+                "animal": "I",
+                "texto": "Explorar"
+            },
+            {
+                "animal": "O",
+                "texto": "Evitar surpresas"
+            },
+            {
+                "animal": "A",
+                "texto": "Focalizar a meta"
+            },
+            {
+                "animal": "C",
+                "texto": "Realizar uma abordagem natural"
+            }
+        ]
+    },
+    {
+        "pergunta": "Eu gosto de mudanças se...",
+        "resposta": [
+            {
+                "animal": "A",
+                "texto": "Me der uma vantagem competitiva"
+            },
+            {
+                "animal": "C",
+                "texto": "For divertido e puder ser compartilhado"
+            },
+            {
+                "animal": "I",
+                "texto": "Me der mais liberdade e variedade"
+            },
+            {
+                "animal": "O",
+                "texto": "Melhorar ou me der mais controle"
+            }
+        ]
+    },
+    {
+        "pergunta": "Não existe nada de errado em...",
+        "resposta": [
+            {
+                "animal": "A",
+                "texto": "Se colocar na frente"
+            },
+            {
+                "animal": "C",
+                "texto": "Colocar os outros na frente"
+            },
+            {
+                "animal": "I",
+                "texto": "Mudar de ideia"
+            },
+            {
+                "animal": "O",
+                "texto": "Ser consistente"
+            }
+        ]
+    },
+    {
+        "pergunta": "Eu gosto de buscar conselhos de...",
+        "resposta": [
+            {
+                "animal": "A",
+                "texto": "Pessoas bem-sucedidas"
+            },
+            {
+                "animal": "C",
+                "texto": "Anciões e conselheiros"
+            },
+            {
+                "animal": "O",
+                "texto": "Autoridades no assunto"
+            },
+            {
+                "animal": "I",
+                "texto": "Lugares, os mais estranhos"
+            }
+        ]
+    },
+    {
+        "pergunta": "Meu lema é...",
+        "resposta": [
+            {
+                "animal": "A",
+                "texto": "Fazer o que precisa ser feito"
+            },
+            {
+                "animal": "O",
+                "texto": "Fazer bem feito"
+            },
+            {
+                "animal": "I",
+                "texto": "Fazer mais que bem feito"
+            },
+            {
+                "animal": "C",
+                "texto": "Fazer o que gosto"
+            }
+]
+    },
+    {
+        "pergunta": "Eu gosto de...",
+        "resposta": [
+            {
+                "animal": "I",
+                "texto": "Complexidade, mesmo se confuso"
+            },
+            {
+                "animal": "O",
+                "texto": "Ordem e sistematização"
+            },
+            {
+                "animal": "C",
+                "texto": "Calor humano e animação"
+            },
+            {
+                "animal": "A",
+                "texto": "Coisas claras e simples"
+            }
+        ]
+    },
+    {
+        "pergunta": "Tempo para mim é...",
+        "resposta": [
+            {
+                "animal": "A",
+                "texto": "Algo que detesto desperdiçar"
+            },
+            {
+                "animal": "C",
+                "texto": "Um grande ciclo"
+            },
+            {
+                "animal": "O",
+                "texto": "Uma flecha que leva ao inevitável"
+            },
+            {
+                "animal": "I",
+                "texto": "Irrelevante"
+            }
+        ]
+    },
+    {
+        "pergunta": "Se eu fosse bilionário...",
+        "resposta": [
+            {
+                "animal": "C",
+                "texto": "Faria doações para muitas entidades"
+            },
+            {
+                "animal": "O",
+                "texto": "Criaria uma poupança avantajada"
+            },
+            {
+                "animal": "I",
+                "texto": "Faria o que desse na cabeça"
+            },
+            {
+                "animal": "A",
+                "texto": "Exibiria bastante com algumas pessoas"
+            }
+        ]
+    },
+    {
+        "pergunta": "Eu acredito que...",
+        "resposta": [
+            {
+                "animal": "A",
+                "texto": "O destino é mais importante que a jornada"
+            },
+            {
+                "animal": "C",
+                "texto": "A jornada é mais importante que o destino"
+            },
+            {
+                "animal": "O",
+                "texto": "Um centavo economizado é um centavo ganho"
+            },
+            {
+                "animal": "I",
+                "texto": "Bastam um navio e uma estrela para navegar"
+            }
+        ]
+    },
+    {
+        "pergunta": "Eu acredito também que...",
+        "resposta": [
+            {
+                "animal": "A",
+                "texto": "Aquele que hesita está perdido"
+            },
+            {
+                "animal": "O",
+                "texto": "De grão em grão a galinha enche o papo"
+            },
+            {
+                "animal": "C",
+                "texto": "O que vai, volta"
+            },
+            {
+                "animal": "I",
+                "texto": "Um sorriso ou uma careta é o mesmo para quem é cego"
+            }
+        ]
+    },
+    {
+        "pergunta": "Eu acredito ainda que...",
+        "resposta": [
+            {
+                "animal": "O",
+                "texto": "É melhor prudência do que arrependimento"
+            },
+            {
+                "animal": "A",
+                "texto": "A autoridade deve ser desafiada"
+            },
+            {
+                "animal": "A",
+                "texto": "Ganhar é fundamental"
+            },
+            {
+                "animal": "C",
+                "texto": "O coletivo é mais importante do que o individual"
+            }
+        ]
+    },
+    {
+        "pergunta": "Eu penso que...",
+        "resposta": [
+            {
+                "animal": "I",
+                "texto": "Não é fácil ficar encurralado"
+            },
+            {
+                "animal": "O",
+                "texto": "É preferível olhar, antes de pular"
+            },
+            {
+                "animal": "C",
+                "texto": "Duas cabeças pensam melhor que uma"
+            },
+            {
+                "animal": "A",
+                "texto": "Se você não tem condições de competir, não compita"
+            }
+        ]
+    }
+]
