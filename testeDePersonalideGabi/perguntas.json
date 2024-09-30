@@ -360,7 +360,7 @@
         "pergunta": "Meu lema é...",
         "resposta": [
             {
-                "animal": "A",
+                "animal": "I",
                 "texto": "Fazer o que precisa ser feito"
             },
             {
@@ -368,12 +368,12 @@
                 "texto": "Fazer bem feito"
             },
             {
-                "animal": "I",
-                "texto": "Fazer mais que bem feito"
+                "animal": "A",
+                "texto": "Simplesmente fazer"
             },
             {
                 "animal": "C",
-                "texto": "Fazer o que gosto"
+                "texto": "Fazer junto com o grupo"
             }
 ]
     },

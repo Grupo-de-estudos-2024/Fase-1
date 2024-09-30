@@ -62,11 +62,10 @@ console.log(conclusao)
 prompt('Teste');
 console.clear
 
-let totalDeRespostas = aguia + lobo + gato + tubarao
-aguia = (aguia / totalDeRespostas )* 100 
-gato = (gato /  totalDeRespostas ) * 100
-lobo = (lobo /  totalDeRespostas ) *100
-tubarão = (tubarao /  totalDeRespostas ) * 100
+aguia = aguia * 4
+gato = gato * 4
+lobo = lobo * 4
+tubarão = tubarao * 4
 
 
 console.log(`Você é ${aguia}% aguia`)
@@ -74,31 +73,27 @@ console.log(`Você é ${gato}% gato`)
 console.log(`Você é ${lobo}% lobo`)
 console.log(`Você é ${tubarao}% tubarao`)
 
-let animalRelevante = textos.relevante
-if(aguia > gato && aguia > lobo &&  aguia > tubarao){
-    console.log("O animal mais relevante é a águia")
-    console.log(animalRelevante.comportamentos.aguia)
-    console.log(animalRelevante.pontosFortes.aguia)
-    console.log(animalRelevante.pontosDemelhoria.aguia)
-    console.log(animalRelevante.motivacoes.aguia)
-} else if(gato > lobo && gato && tubarão){
-    console.log("O animal mais relevante é o gato")
-    console.log(animalRelevante.comportamentos.gato)
-    console.log(animalRelevante.pontosFortes.gato)
-    console.log(animalRelevante.pontosDemelhoria.gato)
-    console.log(animalRelevante.motivacoes.gato)
-}else if(lobo > tubarão){
-    console.log("O animal mais relevante é o lobo")
-    console.log(animalRelevante.comportamentos.lobo)
-    console.log(animalRelevante.pontosFortes.lobo)
-    console.log(animalRelevante.pontosDemelhoria.lobo)
-    console.log(animalRelevante.motivacoes.lobo)
-}else{
-    console.log("O animal mais relevante é o tubarão")
-    console.log(animalRelevante.comportamentos.tubarao)
-    console.log(animalRelevante.pontosFortes.tubarao)
-    console.log(animalRelevante.pontosDemelhoria.tubarao)
-    console.log(animalRelevante.motivacoes.tubarao)
 
+function obterAnimalRelevante(animalRelevante) {
+    let animal = "";
+
+    if (aguia > gato && aguia > lobo && aguia > tubarao) {
+        animal = "aguia";
+    } else if (gato > aguia && gato > lobo && gato > tubarao) {
+        animal = "gato";
+    } else if (lobo > aguia && lobo > gato && lobo > tubarao) {
+        animal = "lobo";
+    } else {
+        animal = "tubarao";
+    }
+
+    console.log(
+        `O animal mais relevante é o ${animal} \n
+        Comportamentos: ${animalRelevante.comportamentos.animal} \n
+        Pontos Fortes: ${animalRelevante.pontosFortes.animal} \n
+        Pontos de Melhoria: ${animalRelevante.pontosDemelhoria.animal} \n
+        Motivações: ${animalRelevante.motivacoes.animal}`)
 }
 
+let relevante = textos.relevante
+obterAnimalRelevante(relevante)
