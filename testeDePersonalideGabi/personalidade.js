@@ -1,14 +1,12 @@
-
 let textos = require('./textos.json')
 let introducao = textos.introdução
 
 console.log(introducao)
 
 let prompt = require('prompt-sync')();
-prompt('Teste');
+prompt('Enter');
 console.clear();
 
-console.log("Tela Limpa")
 
 let perguntas = require('./perguntas.json')
 
@@ -19,7 +17,9 @@ let tubarao = 0
 
 for(let i = 0; i < perguntas.length; i++){
 
-    console.log(perguntas[i].pergunta)
+    console.log("Pergunta " + (i + 1) + " " + perguntas[i].pergunta)
+
+    perguntas[i].resposta.sort(() => 0.5 - Math.random())
     console.log(perguntas[i].resposta[0].animal + " " + perguntas[i].resposta[0].texto)
     console.log(perguntas[i].resposta[1].animal + " " + perguntas[i].resposta[1].texto)
     console.log(perguntas[i].resposta[2].animal + " " + perguntas[i].resposta[2].texto)
@@ -35,37 +35,37 @@ for(let i = 0; i < perguntas.length; i++){
     switch(resposta){
         case "I" :
             aguia++
-            console.log("Aguia ", aguia)
         break;
 
         case "C" :
             gato++
-            console.log("Gato ", gato)
         break;
 
         case "O":
           lobo++
-          console.log("Lobo ", lobo)
         break;
 
         case "A" :
          tubarao++
-         console.log("Tubarao ", tubarao)
          break;
 
     }
+    // console.log("Aguia ", aguia)
+    // console.log("Gato ", gato)
+    // console.log("Lobo ", lobo)
+    // console.log("Tubarao ", tubarao)
     
 }
 
 let conclusao = textos.conclusão
 console.log(conclusao)
-prompt('Teste');
+prompt('Enter');
 console.clear
 
 aguia = aguia * 4
 gato = gato * 4
 lobo = lobo * 4
-tubarão = tubarao * 4
+tubarao = tubarao * 4
 
 
 console.log(`Você é ${aguia}% aguia`)
@@ -89,10 +89,10 @@ function obterAnimalRelevante(animalRelevante) {
 
     console.log(
         `O animal mais relevante é o ${animal} \n
-        Comportamentos: ${animalRelevante.comportamentos.animal} \n
-        Pontos Fortes: ${animalRelevante.pontosFortes.animal} \n
-        Pontos de Melhoria: ${animalRelevante.pontosDemelhoria.animal} \n
-        Motivações: ${animalRelevante.motivacoes.animal}`)
+        Comportamentos: ${animalRelevante.comportamentos[animal]} \n
+        Pontos Fortes: ${animalRelevante.pontosFortes[animal]} \n
+        Pontos de Melhoria: ${animalRelevante.pontosDemelhoria[animal]} \n
+        Motivações: ${animalRelevante.motivacoes[animal]}`)
 }
 
 let relevante = textos.relevante
