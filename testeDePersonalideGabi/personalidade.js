@@ -20,33 +20,45 @@ for(let i = 0; i < perguntas.length; i++){
     console.log("Pergunta " + (i + 1) + " " + perguntas[i].pergunta)
 
     perguntas[i].resposta.sort(() => 0.5 - Math.random())
-    console.log(perguntas[i].resposta[0].animal + " " + perguntas[i].resposta[0].texto)
-    console.log(perguntas[i].resposta[1].animal + " " + perguntas[i].resposta[1].texto)
-    console.log(perguntas[i].resposta[2].animal + " " + perguntas[i].resposta[2].texto)
-    console.log(perguntas[i].resposta[3].animal + " " + perguntas[i].resposta[3].texto)
+    console.log("1. " + perguntas[i].resposta[0].texto);
+    console.log("2. " + perguntas[i].resposta[1].texto);
+    console.log("3. " + perguntas[i].resposta[2].texto);
+    console.log("4. " + perguntas[i].resposta[3].texto);
     let resposta = prompt("Resposta: ")
     console.clear();
 
-    while(resposta != "I" && resposta != "C" && resposta != "A" && resposta != "O"){
+    while(resposta != "1" && resposta != "2" && resposta != "3" && resposta != "4"){
         console.log("Resposta inválida")
         resposta = prompt("Resposta: ")
     }
 
     switch(resposta){
-        case "I" :
-            aguia++
+        case "1" :
+            if(perguntas[i].resposta[0].animal == "I") aguia++
+            if(perguntas[i].resposta[0].animal == "C") gato++ 
+            if(perguntas[i].resposta[0].animal == "O") lobo++ 
+            if(perguntas[i].resposta[0].animal == "A") tubarao++ 
         break;
 
-        case "C" :
-            gato++
+        case "2" :
+            if(perguntas[i].resposta[1].animal == "I") aguia++
+            if(perguntas[i].resposta[1].animal == "C") gato++ 
+            if(perguntas[i].resposta[1].animal == "O") lobo++ 
+            if(perguntas[i].resposta[1].animal == "A") tubarao++
         break;
 
-        case "O":
-          lobo++
+        case "3":
+            if(perguntas[i].resposta[2].animal == "I") aguia++
+            if(perguntas[i].resposta[2].animal == "C") gato++ 
+            if(perguntas[i].resposta[2].animal == "O") lobo++ 
+            if(perguntas[i].resposta[2].animal == "A") tubarao++
         break;
 
-        case "A" :
-         tubarao++
+        case "4" :
+            if(perguntas[i].resposta[3].animal == "I") aguia++
+            if(perguntas[i].resposta[3].animal == "C") gato++ 
+            if(perguntas[i].resposta[3].animal == "O") lobo++ 
+            if(perguntas[i].resposta[3].animal == "A") tubarao++
          break;
 
     }
