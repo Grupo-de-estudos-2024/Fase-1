@@ -1,0 +1,30 @@
+{
+        "introdução": "Olá, seja bem-vindo ao Teste de Personalidade.\nTecle enter para acessar as perguntas:",
+        "conclusão": "Teste finalizado, tecle enter para visualizar o resultado.",
+       "relevante": {
+        "comportamentos": {
+            "aguia": "Criativo, Intuitivo, Foco no futuro, Distraído, Curioso, Informal/Casual, Flexível",
+            "gato": "Sensível, Relacionamentos, Time, Tradicionalistas, Contribuição, Busca harmonia, Delega autoridade",
+            "lobo": "Detalhista, Organizado, Estrategista, Busca do conhecimento, Pontual, Conservador, Previsível",
+            "tubarao": "Senso de urgência, Ação, iniciativa, Impulsivo, prático, Vencer desafios, Aqui e agora, Autossuficiente, Não gosta de delegar poder"
+        },
+        "pontosFortes": {
+            "aguia": "Provoca mudanças radicais, Antecipar o futuro, Criatividade",
+            "gato": "Manter comunicação harmoniosa, Desenvolver e manter a cultura empresarial, Comunicação aberta",
+            "lobo": "Passado, Presente e Futuro, Consistência, conformidade e qualidade, Lealdade e segurança, Regras e responsabilidades",
+            "tubarao": "Fazer algo ocorrer, Parar com a burocracia, Motivação"
+        },
+        "pontosDemelhoria": {
+            "aguia": "Falta de atenção para o aqui e agora, Impaciência e rebeldia, Defender o novo pelo novo",
+            "gato": "Esconder conflitos, Felicidade acima dos resultados, Manipulação através dos sentimentos",
+            "lobo": "Dificuldades de se adaptar às mudanças, Pode impedir o progresso, Detalhista, estruturado e demasiadamente sistematizado",
+            "tubarao": "Socialmente um desastre, Faz do modo mais fácil, Relacionamento complicado"
+        },
+        "motivacoes": {
+            "aguia": "Liberdade de expressão, Ausência de controles rígidos, Ambiente de trabalho descentralizado, Liberdade para fazer exceções, Oportunidade para delegar tarefas e detalhes",
+            "gato": "Segurança, Aceitação social, Construir e consumir, Reconhecimento da equipe, Supervisão compreensiva, Ambiente harmônico, Trabalho em grupo",
+            "lobo": "Certeza, compreensão exata de quais são as regras, Conhecimento específico do trabalho, Ausência de riscos e erros, Ver o produto acabado - começo, meio e fim",
+            "tubarao": "Liberdade para agir individualmente, Controle das próprias atividades, Resolver os problemas do seu jeito, Competição individual, Variedade de atividades, Não ter que repetir tarefas"
+        }
+}
+    }
